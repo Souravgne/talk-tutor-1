@@ -92,6 +92,31 @@ h3 {
   background-color: white;
 }
 
+.logo {position: relative;
+/* logo in the top left corner */
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+/* enlage the logo */
+  transform: scale(2.7);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.logo:hover {
+  cursor: progress ;
+  /* box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5); */
+  transform: scale(3) ;
+  transition: transform 70ms;
+  /* text-shadow: #cd56eb 0 0 1px; */
+  /* transform: translateY(-0.1rem); */
+}
+
 .btn:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
