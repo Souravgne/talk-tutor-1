@@ -14,7 +14,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    'https://raw.githubusercontent.com/thanksduck/Sem-6/970ece2f521151ebd8e90759f4a1ba0d042be697/minor/Quiz%20App%20Master/ques.json'
+    'https://raw.githubusercontent.com/thanksduck/Sem-6/b174ba195c7e9b8878e56e034c2aa843ba90c69f/minor/Quiz%20App%20Master/ques.json'
 )
     .then((res) => {
         return res.json();
