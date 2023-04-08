@@ -1,5 +1,5 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #ffffff;
   font-size: 62.5%;
 }
 
@@ -85,10 +85,10 @@ h3 {
   padding: 1rem 0;
   width: 20rem;
   text-align: center;
-  border: 0.1rem solid #56a5eb;
+  border: 0.1rem solid #56eb9e;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: #56a5eb;
+  color: #cd56eb;
   background-color: white;
 }
 

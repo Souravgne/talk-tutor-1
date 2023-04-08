@@ -1,5 +1,6 @@
 .choice-container {
   display: flex;
+  border-radius: 7%;
   margin-bottom: 0.5rem;
   width: 100%;
   font-size: 1.8rem;
@@ -9,15 +10,17 @@
 
 .choice-container:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  border-radius: 7%;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(208, 86, 235, 0.5);
   transform: translateY(-0.1rem);
   transition: transform 150ms;
 }
 
 .choice-prefix {
   padding: 1.5rem 2.5rem;
-  background-color: #56a5eb;
-  color: white;
+  background-color: #63f56f;
+  color: rgb(17, 10, 12);
+  border-radius: 10%;
 }
 
 .choice-text {
@@ -52,21 +55,21 @@
 #progressBar {
   width: 20rem;
   height: 4rem;
-  border: 0.3rem solid #56a5eb;
+  border: 0.3rem solid #52ed6c;
   margin-top: 1.5rem;
 }
 
 #progressBarFull {
   height: 3.4rem;
-  background-color: #56a5eb;
+  background-color: #52ed6c;
   width: 0%;
 }
 
 /* LOADER */
 #loader {
-  border: 1.6rem solid white;
+  border: 1.6rem solid rgb(251, 136, 136);
   border-radius: 50%;
-  border-top: 1.6rem solid #56a5eb;
+  border-top: 1.6rem solid #f0dc6a;
   width: 12rem;
   height: 12rem;
   animation: spin 2s linear infinite;
