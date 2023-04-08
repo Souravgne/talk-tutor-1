@@ -96,8 +96,8 @@ h3 {
 /* logo in the top left corner */
   top: 0;
   left: 0;
-  width: 100px;
-  height: 100px;
+  width: 10%;
+  height: 10%;
 /* enlage the logo */
   transform: scale(2.7);
   background-size: cover;
