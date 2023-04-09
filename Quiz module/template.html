@@ -48,11 +48,11 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TJPWKVH');</script>
     <!-- End Google Tag Manager -->
-
+  
     <!-- Google Optimize -->
     <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NMWKK3C"></script>
     <!-- End Google Optimize -->
-
+  
     <!-- [Attributes by Finsweet] CMS Filter -->
     <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js"></script>
     <link rel="stylesheet" href="gallery.css">
@@ -60,11 +60,11 @@
         body .transition {
             display: block
         }
-
+  
         .w-editor .transition {
             display: none;
         }
-
+  
         .no-scroll-transition {
             overflow: hidden;
             position: relative;
@@ -76,46 +76,43 @@
             src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
         }
     </style>
-</head>
-
-<body>
-    <div class="w-embed w-iframe">
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJPWKVH" height="0" width="0"
-                style="display:none;visibility:hidden"></iframe></noscript>
-    </div>
+  </head>
+  <link rel="stylesheet" href="app.css">
+  <body>
+   
     <div class="html-embed w-embed">
         <style>
             body {
                 font-size: 1.1111111111111112vw;
             }
-
+  
             /* Max Font Size */
             @media screen and (min-width:1440px) {
                 body {
                     font-size: 16px;
                 }
             }
-
+  
             /* Container Max Width */
             .horizontal-container {
                 max-width: 1440px;
             }
-
+  
             /* Min Font Size */
             @media screen and (max-width:991px) {
                 body {
                     font-size: 11.011111111111111px;
                 }
             }
-
-
+  
+  
             .bg-gradient {
-
+  
                 background: linear-gradient(180deg, #A2E1FB 0%, #C0BAEF 100%);
                 transform: matrix(1, 0, 0, -1, 0, 0);
-
+  
             }
-
+  
             /* .bg-video-1 {
       
        background: 
@@ -123,6 +120,8 @@
       } */
         </style>
     </div>
+  
+    <!-- nav bar  -->
     <nav class="navbar max-w">
         <div data-w-id="127cd460-ccb4-fe34-d2a8-4cabb5bfb577" class="logo-wr" style="opacity: 1;">
             <!-- Talk-tutor logo  -->
@@ -137,7 +136,7 @@
                     <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0"
                         aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button"
                         tabindex="0">
-                        <a href="index.html">
+                        <a href="/index.html">
                             <div class="icon-3 w-icon-dropdown-toggle" aria-hidden="true"></div>
                             <div class="text-block-3">Home</div>
                         </a>
@@ -147,7 +146,7 @@
                         <div class="rectangle"></div>
                         <div class="nav-dropd product"><a href="#" class="nav-link dropd w-inline-block" tabindex="0">
                                 <div class="div-link">
-
+  
                                     <div class="link-txt">Analyze Trends</div>
                                 </div>
                             </a>
@@ -165,8 +164,8 @@
                     class="dropdown w-dropdown">
                     <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1"
                         aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button"
-                        tabindex="0"><a href="/use-cases" class="link-block text-color w-inline-block">
-                            <div class="text-block-3">Use Cases</div>
+                        tabindex="0"><a href="highscores.html" class="link-block text-color w-inline-block">
+                            <div class="text-block-3">Highscores</div>
                             <div class="icon-3 w-icon-dropdown-toggle" aria-hidden="true"></div>
                         </a></div>
                     <nav data-w-id="b2ef99fc-c393-1c1f-d41e-173ab3f42679" class="dropdown-list w-dropdown-list"
@@ -329,51 +328,23 @@
     </nav>
     </header>
     <div class="section-medium about-us">
-
-
-        <div class="horizontal-container about-us">
-            <h1>
-                <span class="role"></span>
-            </h1>
-
-            <!-- timer animation  -->
-            <style>
-                .gif-container {
-                    display: flex;
-                    justify-content: center;
-                    align-items: flex-start;
-                    height: 70vh;
-                    margin-top: 50px;
-                }
-
-                .gif-container img {
-                    width: 300px;
-                    height: 200px;
-                }
-
-                .button-container {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: -300px;
-                }
-            </style>
-
-            <div class="gif-container">
-                <img src="choice.gif" alt="">
-            </div>
-
-            <div class="button-container">
-                <a data-w-id="fd602483-e332-dd9f-ee23-be65acbcc06d" href="Quiz module/index.html"
-                    class="button alt careers w-button">Go For Test</a>
-            </div>
-
-
+  
+  <!-- content area  -->
+      <div class="container">
+        <div id="home" class="flex-center flex-column">
+          <img src="/logo.svg" style="width: 200px;" >
+          <h1>Take English Quiz</h1>
+          <div>
+            <!-- <h2 class="footer-heading">Talk Tutor-a step towards your success</h2> -->
+            <a href="game.html" class="button footer w-button">play </a>
         </div>
-
-
+          <!-- <a class="btn" href="highscores.html">High Scores</a> -->
+        </div>
+      </div>
+  
+  
         <!-- footer  -->
-
+  
         <footer class="footer w-[1446 px]">
             <div class="footer-container-flex">
                 <div class="footer-container-top"><a href="/" aria-current="page" class="w-inline-block w--current"><img
@@ -390,9 +361,9 @@
                             <li><a href="/" class="footer-link">practice</a>
                                 <a href="/" class="footer-link">Personalized Plan</a>
                             </li>
-
+  
                             <!-- image gallery start -->
-
+  
                             <!-- image gallery end  -->
                             <!-- redirect practice -->
                             <li class="list-item-3"><a href="/" class="footer-link">Pricing</a>
@@ -411,7 +382,7 @@
                             <li><a href="/" class="footer-link">Sales</a></li>
                         </ul>
                     </div>
-
+  
                     <div>
                         <h2 class="footer-heading">Resources</h2>
                         <ul role="list" class="w-list-unstyled">
@@ -461,44 +432,10 @@
                 <a href="#Header" class="arrow-up w-inline-block"></a>
             </div>
         </footer>
-
+  
         </script>
-
-        <script>
-            if (window.location.search) {
-                const linksToApp = [...document.querySelectorAll('a')].filter(a => a.href.includes(''));
-                if (linksToApp.length) {
-                    linksToApp.forEach(link => {
-                        if (link.href.includes('?')) {
-                            link.href = `${link.href}&${window.location.search.substring(1)}`;
-                        } else if (link.href) {
-                            link.href = `${link.href}${window.location.search}`;
-                        }
-                    });
-                }
-            }
-        </script>
-
-
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-        <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-        <script>
-            var typeData = new Typed(".role", {
-                strings: [
-                    "Hello , Learner :)",
-                    "Let's Take a Demo Test",
-                    "We will Personalize your course according to your performance",
-                    "To Start Test , Click on the button below 👇",
-                    "Wish you Luck for your Test !",
-                ],
-                loop: true,
-                typeSpeed: 80,
-                backSpeed: 60,
-                backDelay: 1000,
-            });
-        </script>
-
-
-</body>
-
-</html>
+  
+  
+  </body>
+  
+  </html>
